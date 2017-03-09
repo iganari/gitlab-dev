@@ -70,16 +70,3 @@
   with_items:
   - /srv
   - /usr/share/data
-
-- name: production unique directory
-  file: >
-    path="{{ item }}"
-    state=directory
-    mode=0777
-    group=root
-    owner=root
-    force=yes
-  with_items:
-  - /usr/share/data/crawler-javpop/data
-  - /usr/share/data/crawler-javpop/data/log
-  when: node == 'crawler-javpop'
