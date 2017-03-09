@@ -2,6 +2,7 @@
 #
 # roles/vagrant/tasks/main.yml
 #
+
 - name: force color prompt
   lineinfile: >
     dest='/home/vagrant/.bashrc'

@@ -2,6 +2,7 @@
 #
 # roles/common/tasks/main.yml
 #
+
 - name: replace rsyslog.conf
   copy: >
     src=roles/common/templates/50-default.conf.j2
