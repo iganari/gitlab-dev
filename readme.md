@@ -2,7 +2,7 @@
 
 ### 環境構築
 
-+ 必要なもの
++ 必要なもの(mac)
     + virtualbox 
     + vagrant
     + git
