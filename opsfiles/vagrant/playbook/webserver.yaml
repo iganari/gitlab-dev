@@ -1,0 +1,13 @@
+---
+#
+# webservers.yaml
+#
+
+- hosts: vagrant
+  vars:
+    - node: gitlab-dev
+  roles:
+    - common
+    - vagrant
+    - docker
+#     - gitlab
